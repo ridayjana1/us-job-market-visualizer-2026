@@ -1,0 +1,11 @@
+# ETL / data-processing dependencies.
+# generate_sample_data.py runs on the standard library alone; the
+# packages below are only needed for the live-fetch + parquet pipeline.
+pandas>=2.2,<3
+numpy>=1.26,<3
+pyarrow>=15
+openpyxl>=3.1
+requests>=2.31
+python-dotenv>=1.0
+# Optional: narrative summary regeneration during ETL
+anthropic>=0.40 ; python_version >= "3.9"

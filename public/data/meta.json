@@ -1,0 +1,52 @@
+{
+  "generated_on": "2026-06-15",
+  "reference_year": 2024,
+  "dataset_kind": "curated-sample",
+  "sources": [
+    {
+      "name": "BLS Occupational Employment and Wage Statistics (OEWS)",
+      "url": "https://www.bls.gov/oes/",
+      "fields": [
+        "employment",
+        "wages",
+        "wage percentiles"
+      ]
+    },
+    {
+      "name": "BLS Employment Projections 2024\u20132034",
+      "url": "https://www.bls.gov/emp/",
+      "fields": [
+        "growth rate",
+        "annual openings",
+        "typical education"
+      ]
+    },
+    {
+      "name": "O*NET 28.x Database",
+      "url": "https://www.onetcenter.org/database.html",
+      "fields": [
+        "skills",
+        "knowledge",
+        "work activities",
+        "abilities"
+      ]
+    },
+    {
+      "name": "Anthropic Economic Index (methodology)",
+      "url": "https://www.anthropic.com/economic-index",
+      "fields": [
+        "AI exposure",
+        "augmentation vs. automation framing"
+      ]
+    }
+  ],
+  "stats": {
+    "occupation_count": 57,
+    "total_employment": 66262650,
+    "median_wage_overall": 66750,
+    "high_exposure_count": 27,
+    "moderate_exposure_count": 15,
+    "low_exposure_count": 15
+  },
+  "disclaimer": "AI exposure measures task overlap with current AI capabilities. It is not a prediction of job loss. Exposure is split into augmentation and automation potential following the Anthropic Economic Index framing."
+}

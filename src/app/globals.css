@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 222 47% 11%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222 47% 11%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 222 47% 11%;
+    --radius: 0.6rem;
+
+    --exposure-low: 152 60% 40%;
+    --exposure-moderate: 38 92% 50%;
+    --exposure-high: 350 75% 55%;
+  }
+
+  .dark {
+    /* Dark-first, analytics-grade palette (near-black canvas, calm panels,
+       high-contrast text) tuned for charts and dense data. */
+    --background: 224 47% 5%;
+    --foreground: 210 40% 98%;
+    --card: 222 40% 8%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 44% 9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 217 33% 16%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 33% 14%;
+    --muted-foreground: 217 18% 68%;
+    --accent: 217 33% 18%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 63% 40%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 30% 18%;
+    --input: 217 30% 20%;
+    --ring: 213 27% 70%;
+
+    --exposure-low: 152 55% 48%;
+    --exposure-moderate: 38 92% 55%;
+    --exposure-high: 350 75% 62%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Subtle grid backdrop used on the hero section. */
+.bg-grid {
+  background-image: linear-gradient(to right, hsl(var(--border) / 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, hsl(var(--border) / 0.5) 1px, transparent 1px);
+  background-size: 36px 36px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 40%, transparent 100%);
+}
+
+/* ── Recharts theming ──────────────────────────────────────────────────
+   Recharts hard-codes greys for axes/text/grids. Bind them to our CSS
+   variables so every chart follows the active theme without per-chart props.
+   Semantic data colors (green/yellow/orange/red) are set inline and keep
+   their meaning across themes. */
+.recharts-cartesian-axis-tick-value,
+.recharts-text {
+  fill: hsl(var(--muted-foreground));
+}
+.recharts-cartesian-grid line {
+  stroke: hsl(var(--border));
+}
+.recharts-cartesian-axis line,
+.recharts-cartesian-axis-line {
+  stroke: hsl(var(--border));
+}
+.recharts-tooltip-wrapper:focus {
+  outline: none;
+}
+/* Recharts default tooltip surface follows the theme. */
+.recharts-default-tooltip {
+  background-color: hsl(var(--popover)) !important;
+  border-color: hsl(var(--border)) !important;
+  color: hsl(var(--popover-foreground)) !important;
+  border-radius: 0.5rem;
+}
+
+/* Thin, theme-aware scrollbars for dense tables/panels. */
+* {
+  scrollbar-color: hsl(var(--border)) transparent;
+}

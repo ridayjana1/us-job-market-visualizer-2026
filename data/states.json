@@ -1,0 +1,3419 @@
+[
+  {
+    "fips": "01",
+    "abbr": "AL",
+    "name": "Alabama",
+    "total_employment": 861414,
+    "median_wage": 65001,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 47840,
+        "median_wage": 29154,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 47798,
+        "median_wage": 25404,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 42003,
+        "median_wage": 32387,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 45601,
+        "median_wage": 87100,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 35401,
+        "median_wage": 34812,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 41860,
+        "median_wage": 38080,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 42903,
+        "median_wage": 74020,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-3032",
+        "title": "Heavy and Tractor-Trailer Truck Drivers",
+        "employment": 26934,
+        "median_wage": 46715,
+        "ai_exposure_score": 0.204
+      }
+    ]
+  },
+  {
+    "fips": "02",
+    "abbr": "AK",
+    "name": "Alaska",
+    "total_employment": 132525,
+    "median_wage": 80118,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 7360,
+        "median_wage": 35934,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 6462,
+        "median_wage": 39919,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 7353,
+        "median_wage": 31312,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 6600,
+        "median_wage": 91234,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 5446,
+        "median_wage": 42908,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 7015,
+        "median_wage": 107356,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 6440,
+        "median_wage": 46936,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 5717,
+        "median_wage": 42060,
+        "ai_exposure_score": 0.685
+      }
+    ]
+  },
+  {
+    "fips": "04",
+    "abbr": "AZ",
+    "name": "Arizona",
+    "total_employment": 1325253,
+    "median_wage": 71804,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 73600,
+        "median_wage": 32205,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 64620,
+        "median_wage": 35777,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 64400,
+        "median_wage": 42066,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 73536,
+        "median_wage": 28063,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 57174,
+        "median_wage": 37696,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 70156,
+        "median_wage": 96216,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 66005,
+        "median_wage": 81766,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "35-3031",
+        "title": "Waiters and Waitresses",
+        "employment": 44910,
+        "median_wage": 30343,
+        "ai_exposure_score": 0.21
+      }
+    ]
+  },
+  {
+    "fips": "05",
+    "abbr": "AR",
+    "name": "Arkansas",
+    "total_employment": 530101,
+    "median_wage": 62734,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 25760,
+        "median_wage": 36752,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 29414,
+        "median_wage": 24518,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 29440,
+        "median_wage": 28137,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 26402,
+        "median_wage": 71438,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 25848,
+        "median_wage": 31257,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 28062,
+        "median_wage": 84062,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "35-3031",
+        "title": "Waiters and Waitresses",
+        "employment": 17964,
+        "median_wage": 26510,
+        "ai_exposure_score": 0.21
+      },
+      {
+        "soc_code": "53-3032",
+        "title": "Heavy and Tractor-Trailer Truck Drivers",
+        "employment": 16575,
+        "median_wage": 45085,
+        "ai_exposure_score": 0.204
+      }
+    ]
+  },
+  {
+    "fips": "06",
+    "abbr": "CA",
+    "name": "California",
+    "total_employment": 7620204,
+    "median_wage": 89188,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 422832,
+        "median_wage": 34857,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 379532,
+        "median_wage": 101562,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 371565,
+        "median_wage": 44438,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 423200,
+        "median_wage": 40002,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 403398,
+        "median_wage": 119510,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 328751,
+        "median_wage": 46822,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 370300,
+        "median_wage": 52250,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 313168,
+        "median_wage": 47766,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "08",
+    "abbr": "CO",
+    "name": "Colorado",
+    "total_employment": 1192727,
+    "median_wage": 80118,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 66240,
+        "median_wage": 35934,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 58157,
+        "median_wage": 39919,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 66182,
+        "median_wage": 31312,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 63140,
+        "median_wage": 107356,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 59405,
+        "median_wage": 91234,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 57959,
+        "median_wage": 46936,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 49017,
+        "median_wage": 42908,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "35-3031",
+        "title": "Waiters and Waitresses",
+        "employment": 40419,
+        "median_wage": 33856,
+        "ai_exposure_score": 0.21
+      }
+    ]
+  },
+  {
+    "fips": "09",
+    "abbr": "CT",
+    "name": "Connecticut",
+    "total_employment": 728889,
+    "median_wage": 84653,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 40444,
+        "median_wage": 33084,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 40480,
+        "median_wage": 37968,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 38585,
+        "median_wage": 113433,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 35541,
+        "median_wage": 42179,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 35420,
+        "median_wage": 49593,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 36303,
+        "median_wage": 96398,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 31445,
+        "median_wage": 44441,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 29955,
+        "median_wage": 45337,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "10",
+    "abbr": "DE",
+    "name": "Delaware",
+    "total_employment": 198787,
+    "median_wage": 77095,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 11030,
+        "median_wage": 30130,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 10523,
+        "median_wage": 103305,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 9900,
+        "median_wage": 87791,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 9660,
+        "median_wage": 45165,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 11040,
+        "median_wage": 34578,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 9693,
+        "median_wage": 38413,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 8169,
+        "median_wage": 41289,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 8576,
+        "median_wage": 40473,
+        "ai_exposure_score": 0.685
+      }
+    ]
+  },
+  {
+    "fips": "11",
+    "abbr": "DC",
+    "name": "District of Columbia",
+    "total_employment": 331313,
+    "median_wage": 98258,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 16501,
+        "median_wage": 111891,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 18400,
+        "median_wage": 44070,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 16100,
+        "median_wage": 57564,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 13616,
+        "median_wage": 52624,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "37-2011",
+        "title": "Janitors and Cleaners",
+        "employment": 11200,
+        "median_wage": 45526,
+        "ai_exposure_score": 0.103
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 18384,
+        "median_wage": 38402,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "35-3031",
+        "title": "Waiters and Waitresses",
+        "employment": 11227,
+        "median_wage": 41522,
+        "ai_exposure_score": 0.21
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 17539,
+        "median_wage": 131664,
+        "ai_exposure_score": 0.655
+      }
+    ]
+  },
+  {
+    "fips": "12",
+    "abbr": "FL",
+    "name": "Florida",
+    "total_employment": 4108284,
+    "median_wage": 70292,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 228160,
+        "median_wage": 31527,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 217484,
+        "median_wage": 94190,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 227961,
+        "median_wage": 27472,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 204617,
+        "median_wage": 80045,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 168838,
+        "median_wage": 37646,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "53-3032",
+        "title": "Heavy and Tractor-Trailer Truck Drivers",
+        "employment": 128457,
+        "median_wage": 50517,
+        "ai_exposure_score": 0.204
+      },
+      {
+        "soc_code": "37-2011",
+        "title": "Janitors and Cleaners",
+        "employment": 138880,
+        "median_wage": 32568,
+        "ai_exposure_score": 0.103
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 200322,
+        "median_wage": 35023,
+        "ai_exposure_score": 0.078
+      }
+    ]
+  },
+  {
+    "fips": "13",
+    "abbr": "GA",
+    "name": "Georgia",
+    "total_employment": 2054142,
+    "median_wage": 71804,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 113980,
+        "median_wage": 28063,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 108742,
+        "median_wage": 96216,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 102308,
+        "median_wage": 81766,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 84419,
+        "median_wage": 38456,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 114080,
+        "median_wage": 32205,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 100161,
+        "median_wage": 35777,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 99820,
+        "median_wage": 42066,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 88620,
+        "median_wage": 37696,
+        "ai_exposure_score": 0.685
+      }
+    ]
+  },
+  {
+    "fips": "15",
+    "abbr": "HI",
+    "name": "Hawaii",
+    "total_employment": 265050,
+    "median_wage": 78606,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 14720,
+        "median_wage": 35256,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 13201,
+        "median_wage": 89512,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 12880,
+        "median_wage": 46051,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 14031,
+        "median_wage": 105331,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 11434,
+        "median_wage": 41267,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 12924,
+        "median_wage": 39166,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 14707,
+        "median_wage": 30721,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "53-3032",
+        "title": "Heavy and Tractor-Trailer Truck Drivers",
+        "employment": 8287,
+        "median_wage": 56492,
+        "ai_exposure_score": 0.204
+      }
+    ]
+  },
+  {
+    "fips": "16",
+    "abbr": "ID",
+    "name": "Idaho",
+    "total_employment": 331313,
+    "median_wage": 66513,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 16100,
+        "median_wage": 38966,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 18400,
+        "median_wage": 29832,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 14293,
+        "median_wage": 34918,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 13616,
+        "median_wage": 35622,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 16155,
+        "median_wage": 33140,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 18384,
+        "median_wage": 25995,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 17539,
+        "median_wage": 89126,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 16501,
+        "median_wage": 75741,
+        "ai_exposure_score": 0.366
+      }
+    ]
+  },
+  {
+    "fips": "17",
+    "abbr": "IL",
+    "name": "Illinois",
+    "total_employment": 2650506,
+    "median_wage": 77095,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 128800,
+        "median_wage": 45165,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 132011,
+        "median_wage": 87791,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 129240,
+        "median_wage": 38413,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 147072,
+        "median_wage": 30130,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 147200,
+        "median_wage": 34578,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 140312,
+        "median_wage": 103305,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 114348,
+        "median_wage": 40473,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "37-2011",
+        "title": "Janitors and Cleaners",
+        "employment": 89600,
+        "median_wage": 35720,
+        "ai_exposure_score": 0.103
+      }
+    ]
+  },
+  {
+    "fips": "18",
+    "abbr": "IN",
+    "name": "Indiana",
+    "total_employment": 1391515,
+    "median_wage": 69536,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 77280,
+        "median_wage": 31188,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 69305,
+        "median_wage": 79184,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 73664,
+        "median_wage": 93177,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 67620,
+        "median_wage": 40737,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 57187,
+        "median_wage": 37241,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 60032,
+        "median_wage": 36505,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 67851,
+        "median_wage": 34647,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 77212,
+        "median_wage": 27176,
+        "ai_exposure_score": 0.178
+      }
+    ]
+  },
+  {
+    "fips": "19",
+    "abbr": "IA",
+    "name": "Iowa",
+    "total_employment": 662626,
+    "median_wage": 70292,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 33002,
+        "median_wage": 80045,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 28587,
+        "median_wage": 36902,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 32310,
+        "median_wage": 35023,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 36768,
+        "median_wage": 27472,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 32200,
+        "median_wage": 41180,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "35-3031",
+        "title": "Waiters and Waitresses",
+        "employment": 22455,
+        "median_wage": 29704,
+        "ai_exposure_score": 0.21
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 36800,
+        "median_wage": 31527,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 35078,
+        "median_wage": 94190,
+        "ai_exposure_score": 0.655
+      }
+    ]
+  },
+  {
+    "fips": "20",
+    "abbr": "KS",
+    "name": "Kansas",
+    "total_employment": 596363,
+    "median_wage": 68780,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 29702,
+        "median_wage": 78323,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 31570,
+        "median_wage": 92164,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 25728,
+        "median_wage": 36108,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 33120,
+        "median_wage": 30849,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 24508,
+        "median_wage": 36836,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 33091,
+        "median_wage": 26881,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 28979,
+        "median_wage": 40294,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "35-3031",
+        "title": "Waiters and Waitresses",
+        "employment": 20209,
+        "median_wage": 29065,
+        "ai_exposure_score": 0.21
+      }
+    ]
+  },
+  {
+    "fips": "21",
+    "abbr": "KY",
+    "name": "Kentucky",
+    "total_employment": 861414,
+    "median_wage": 66513,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 41860,
+        "median_wage": 38966,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 47798,
+        "median_wage": 25995,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 47840,
+        "median_wage": 29832,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 42903,
+        "median_wage": 75741,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 45601,
+        "median_wage": 89126,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "35-3031",
+        "title": "Waiters and Waitresses",
+        "employment": 29191,
+        "median_wage": 28107,
+        "ai_exposure_score": 0.21
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 42003,
+        "median_wage": 33140,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 35401,
+        "median_wage": 35622,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "22",
+    "abbr": "LA",
+    "name": "Louisiana",
+    "total_employment": 861414,
+    "median_wage": 65757,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 42003,
+        "median_wage": 32764,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 47798,
+        "median_wage": 25699,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 45601,
+        "median_wage": 88113,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 47840,
+        "median_wage": 29493,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 41860,
+        "median_wage": 38523,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "35-3031",
+        "title": "Waiters and Waitresses",
+        "employment": 29191,
+        "median_wage": 27787,
+        "ai_exposure_score": 0.21
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 42903,
+        "median_wage": 74880,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 35401,
+        "median_wage": 35217,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "23",
+    "abbr": "ME",
+    "name": "Maine",
+    "total_employment": 265050,
+    "median_wage": 71804,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 14707,
+        "median_wage": 28063,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 13201,
+        "median_wage": 81766,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 11434,
+        "median_wage": 37696,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 10892,
+        "median_wage": 38456,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 12924,
+        "median_wage": 35777,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 14031,
+        "median_wage": 96216,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "37-2011",
+        "title": "Janitors and Cleaners",
+        "employment": 8960,
+        "median_wage": 33269,
+        "ai_exposure_score": 0.103
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 14720,
+        "median_wage": 32205,
+        "ai_exposure_score": 0.396
+      }
+    ]
+  },
+  {
+    "fips": "24",
+    "abbr": "MD",
+    "name": "Maryland",
+    "total_employment": 1192727,
+    "median_wage": 84653,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 59405,
+        "median_wage": 96398,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 66182,
+        "median_wage": 33084,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 63140,
+        "median_wage": 113433,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 49017,
+        "median_wage": 45337,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 57959,
+        "median_wage": 49593,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 58157,
+        "median_wage": 42179,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 51456,
+        "median_wage": 44441,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 66240,
+        "median_wage": 37968,
+        "ai_exposure_score": 0.396
+      }
+    ]
+  },
+  {
+    "fips": "25",
+    "abbr": "MA",
+    "name": "Massachusetts",
+    "total_employment": 1590303,
+    "median_wage": 89188,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 88243,
+        "median_wage": 34857,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 88320,
+        "median_wage": 40002,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 77544,
+        "median_wage": 44438,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 77280,
+        "median_wage": 52250,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 79206,
+        "median_wage": 101562,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 84187,
+        "median_wage": 119510,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 68609,
+        "median_wage": 46822,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 65356,
+        "median_wage": 47766,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "26",
+    "abbr": "MI",
+    "name": "Michigan",
+    "total_employment": 1921616,
+    "median_wage": 72560,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 106627,
+        "median_wage": 28358,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 82902,
+        "median_wage": 38092,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 101726,
+        "median_wage": 97228,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 95708,
+        "median_wage": 82627,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 93699,
+        "median_wage": 36153,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 106720,
+        "median_wage": 32544,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "35-3031",
+        "title": "Waiters and Waitresses",
+        "employment": 65119,
+        "median_wage": 30662,
+        "ai_exposure_score": 0.21
+      },
+      {
+        "soc_code": "53-3032",
+        "title": "Heavy and Tractor-Trailer Truck Drivers",
+        "employment": 60085,
+        "median_wage": 52147,
+        "ai_exposure_score": 0.204
+      }
+    ]
+  },
+  {
+    "fips": "27",
+    "abbr": "MN",
+    "name": "Minnesota",
+    "total_employment": 1325253,
+    "median_wage": 78606,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 64400,
+        "median_wage": 46051,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 70156,
+        "median_wage": 105331,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 64620,
+        "median_wage": 39166,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 66005,
+        "median_wage": 89512,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "35-3031",
+        "title": "Waiters and Waitresses",
+        "employment": 44910,
+        "median_wage": 33217,
+        "ai_exposure_score": 0.21
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 73600,
+        "median_wage": 35256,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 73536,
+        "median_wage": 30721,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "53-3032",
+        "title": "Heavy and Tractor-Trailer Truck Drivers",
+        "employment": 41438,
+        "median_wage": 56492,
+        "ai_exposure_score": 0.204
+      }
+    ]
+  },
+  {
+    "fips": "28",
+    "abbr": "MS",
+    "name": "Mississippi",
+    "total_employment": 463838,
+    "median_wage": 61222,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 24554,
+        "median_wage": 82036,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 23101,
+        "median_wage": 69716,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 19062,
+        "median_wage": 32788,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 20010,
+        "median_wage": 32140,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 25760,
+        "median_wage": 27459,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 25737,
+        "median_wage": 23927,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "37-2011",
+        "title": "Janitors and Cleaners",
+        "employment": 15680,
+        "median_wage": 28366,
+        "ai_exposure_score": 0.103
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 22617,
+        "median_wage": 30504,
+        "ai_exposure_score": 0.078
+      }
+    ]
+  },
+  {
+    "fips": "29",
+    "abbr": "MO",
+    "name": "Missouri",
+    "total_employment": 1258990,
+    "median_wage": 70292,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 62705,
+        "median_wage": 80045,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 69859,
+        "median_wage": 27472,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 69920,
+        "median_wage": 31527,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "37-2011",
+        "title": "Janitors and Cleaners",
+        "employment": 42560,
+        "median_wage": 32568,
+        "ai_exposure_score": 0.103
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 61180,
+        "median_wage": 41180,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 66648,
+        "median_wage": 94190,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 54315,
+        "median_wage": 36902,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 61389,
+        "median_wage": 35023,
+        "ai_exposure_score": 0.078
+      }
+    ]
+  },
+  {
+    "fips": "30",
+    "abbr": "MT",
+    "name": "Montana",
+    "total_employment": 198787,
+    "median_wage": 67269,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 11040,
+        "median_wage": 30171,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 11030,
+        "median_wage": 26290,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 10523,
+        "median_wage": 90139,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 9660,
+        "median_wage": 39409,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 9900,
+        "median_wage": 76602,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 9693,
+        "median_wage": 33517,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 8576,
+        "median_wage": 35315,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 8169,
+        "median_wage": 36027,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "31",
+    "abbr": "NE",
+    "name": "Nebraska",
+    "total_employment": 463838,
+    "median_wage": 70292,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 24554,
+        "median_wage": 94190,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 22540,
+        "median_wage": 41180,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 25737,
+        "median_wage": 27472,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 20010,
+        "median_wage": 36902,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 25760,
+        "median_wage": 31527,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 23101,
+        "median_wage": 80045,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-3032",
+        "title": "Heavy and Tractor-Trailer Truck Drivers",
+        "employment": 14503,
+        "median_wage": 50517,
+        "ai_exposure_score": 0.204
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 19062,
+        "median_wage": 37646,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "32",
+    "abbr": "NV",
+    "name": "Nevada",
+    "total_employment": 596363,
+    "median_wage": 70292,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 33120,
+        "median_wage": 31527,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 33091,
+        "median_wage": 27472,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 29078,
+        "median_wage": 35023,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 29702,
+        "median_wage": 80045,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 28979,
+        "median_wage": 41180,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 31570,
+        "median_wage": 94190,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 25728,
+        "median_wage": 36902,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 24508,
+        "median_wage": 37646,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "33",
+    "abbr": "NH",
+    "name": "New Hampshire",
+    "total_employment": 331313,
+    "median_wage": 78606,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 18384,
+        "median_wage": 30721,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 18400,
+        "median_wage": 35256,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 16501,
+        "median_wage": 89512,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 17539,
+        "median_wage": 105331,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 14293,
+        "median_wage": 41267,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 16155,
+        "median_wage": 39166,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "35-3031",
+        "title": "Waiters and Waitresses",
+        "employment": 11227,
+        "median_wage": 33217,
+        "ai_exposure_score": 0.21
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 13616,
+        "median_wage": 42099,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "34",
+    "abbr": "NJ",
+    "name": "New Jersey",
+    "total_employment": 1855354,
+    "median_wage": 84653,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 103040,
+        "median_wage": 37968,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 98218,
+        "median_wage": 113433,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 92407,
+        "median_wage": 96398,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 80043,
+        "median_wage": 44441,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 76249,
+        "median_wage": 45337,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "37-2011",
+        "title": "Janitors and Cleaners",
+        "employment": 62720,
+        "median_wage": 39222,
+        "ai_exposure_score": 0.103
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 102950,
+        "median_wage": 33084,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 90468,
+        "median_wage": 42179,
+        "ai_exposure_score": 0.078
+      }
+    ]
+  },
+  {
+    "fips": "35",
+    "abbr": "NM",
+    "name": "New Mexico",
+    "total_employment": 331313,
+    "median_wage": 68025,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 16155,
+        "median_wage": 33894,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 17539,
+        "median_wage": 91152,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 18384,
+        "median_wage": 26586,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 14293,
+        "median_wage": 35712,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 16100,
+        "median_wage": 39852,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 16501,
+        "median_wage": 77463,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 18400,
+        "median_wage": 30510,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 13616,
+        "median_wage": 36432,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "36",
+    "abbr": "NY",
+    "name": "New York",
+    "total_employment": 4174546,
+    "median_wage": 86921,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 202860,
+        "median_wage": 50921,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 220992,
+        "median_wage": 116471,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 207917,
+        "median_wage": 98980,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 180098,
+        "median_wage": 45632,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 231638,
+        "median_wage": 33971,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 171561,
+        "median_wage": 46552,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "37-2011",
+        "title": "Janitors and Cleaners",
+        "employment": 141120,
+        "median_wage": 40273,
+        "ai_exposure_score": 0.103
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 231840,
+        "median_wage": 38985,
+        "ai_exposure_score": 0.396
+      }
+    ]
+  },
+  {
+    "fips": "37",
+    "abbr": "NC",
+    "name": "North Carolina",
+    "total_employment": 2054142,
+    "median_wage": 71048,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 102308,
+        "median_wage": 80905,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 88620,
+        "median_wage": 37299,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 113980,
+        "median_wage": 27767,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 100161,
+        "median_wage": 35400,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 114080,
+        "median_wage": 31866,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "37-2011",
+        "title": "Janitors and Cleaners",
+        "employment": 69440,
+        "median_wage": 32918,
+        "ai_exposure_score": 0.103
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 99820,
+        "median_wage": 41623,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "53-3032",
+        "title": "Heavy and Tractor-Trailer Truck Drivers",
+        "employment": 64228,
+        "median_wage": 51060,
+        "ai_exposure_score": 0.204
+      }
+    ]
+  },
+  {
+    "fips": "38",
+    "abbr": "ND",
+    "name": "North Dakota",
+    "total_employment": 198787,
+    "median_wage": 72560,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 11040,
+        "median_wage": 32544,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 9693,
+        "median_wage": 36153,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 9900,
+        "median_wage": 82627,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 10523,
+        "median_wage": 97228,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 8169,
+        "median_wage": 38860,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 11030,
+        "median_wage": 28358,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "35-3031",
+        "title": "Waiters and Waitresses",
+        "employment": 6736,
+        "median_wage": 30662,
+        "ai_exposure_score": 0.21
+      },
+      {
+        "soc_code": "37-2011",
+        "title": "Janitors and Cleaners",
+        "employment": 6720,
+        "median_wage": 33619,
+        "ai_exposure_score": 0.103
+      }
+    ]
+  },
+  {
+    "fips": "39",
+    "abbr": "OH",
+    "name": "Ohio",
+    "total_employment": 2451718,
+    "median_wage": 71048,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 129788,
+        "median_wage": 95203,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 136160,
+        "median_wage": 31866,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 105772,
+        "median_wage": 37299,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 100758,
+        "median_wage": 38051,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 119140,
+        "median_wage": 41623,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 122110,
+        "median_wage": 80905,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 136041,
+        "median_wage": 27767,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 119547,
+        "median_wage": 35400,
+        "ai_exposure_score": 0.078
+      }
+    ]
+  },
+  {
+    "fips": "40",
+    "abbr": "OK",
+    "name": "Oklahoma",
+    "total_employment": 728889,
+    "median_wage": 66513,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 38585,
+        "median_wage": 89126,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 40480,
+        "median_wage": 29832,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 36303,
+        "median_wage": 75741,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 35541,
+        "median_wage": 33140,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 29955,
+        "median_wage": 35622,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 31445,
+        "median_wage": 34918,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 35420,
+        "median_wage": 38966,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 40444,
+        "median_wage": 25995,
+        "ai_exposure_score": 0.178
+      }
+    ]
+  },
+  {
+    "fips": "41",
+    "abbr": "OR",
+    "name": "Oregon",
+    "total_employment": 861414,
+    "median_wage": 77095,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 47798,
+        "median_wage": 30130,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 47840,
+        "median_wage": 34578,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 45601,
+        "median_wage": 103305,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 41860,
+        "median_wage": 45165,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 42903,
+        "median_wage": 87791,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 42003,
+        "median_wage": 38413,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 35401,
+        "median_wage": 41289,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 37163,
+        "median_wage": 40473,
+        "ai_exposure_score": 0.685
+      }
+    ]
+  },
+  {
+    "fips": "42",
+    "abbr": "PA",
+    "name": "Pennsylvania",
+    "total_employment": 2650506,
+    "median_wage": 74071,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 147072,
+        "median_wage": 28949,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 147200,
+        "median_wage": 33222,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 140312,
+        "median_wage": 99254,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 132011,
+        "median_wage": 84348,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 128800,
+        "median_wage": 43394,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 129240,
+        "median_wage": 36906,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 114348,
+        "median_wage": 38886,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 108928,
+        "median_wage": 39670,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "44",
+    "abbr": "RI",
+    "name": "Rhode Island",
+    "total_employment": 198787,
+    "median_wage": 78606,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 11030,
+        "median_wage": 30721,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 10523,
+        "median_wage": 105331,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 9900,
+        "median_wage": 89512,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 9693,
+        "median_wage": 39166,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 11040,
+        "median_wage": 35256,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 9660,
+        "median_wage": 46051,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 8576,
+        "median_wage": 41267,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 8169,
+        "median_wage": 42099,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "45",
+    "abbr": "SC",
+    "name": "South Carolina",
+    "total_employment": 927677,
+    "median_wage": 67269,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 51520,
+        "median_wage": 30171,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 51475,
+        "median_wage": 26290,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 45234,
+        "median_wage": 33517,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 40021,
+        "median_wage": 35315,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 46203,
+        "median_wage": 76602,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 49109,
+        "median_wage": 90139,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "37-2011",
+        "title": "Janitors and Cleaners",
+        "employment": 31360,
+        "median_wage": 31167,
+        "ai_exposure_score": 0.103
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 45080,
+        "median_wage": 39409,
+        "ai_exposure_score": 0.73
+      }
+    ]
+  },
+  {
+    "fips": "46",
+    "abbr": "SD",
+    "name": "South Dakota",
+    "total_employment": 198787,
+    "median_wage": 67269,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 10523,
+        "median_wage": 90139,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 11030,
+        "median_wage": 26290,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 9693,
+        "median_wage": 33517,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 11040,
+        "median_wage": 30171,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 9900,
+        "median_wage": 76602,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 8169,
+        "median_wage": 36027,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 9660,
+        "median_wage": 39409,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 8576,
+        "median_wage": 35315,
+        "ai_exposure_score": 0.685
+      }
+    ]
+  },
+  {
+    "fips": "47",
+    "abbr": "TN",
+    "name": "Tennessee",
+    "total_employment": 1391515,
+    "median_wage": 68780,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 77212,
+        "median_wage": 26881,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 73664,
+        "median_wage": 92164,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 69305,
+        "median_wage": 78323,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 77280,
+        "median_wage": 30849,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 60032,
+        "median_wage": 36108,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 67851,
+        "median_wage": 34270,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "37-2011",
+        "title": "Janitors and Cleaners",
+        "employment": 47040,
+        "median_wage": 31868,
+        "ai_exposure_score": 0.103
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 67620,
+        "median_wage": 40294,
+        "ai_exposure_score": 0.73
+      }
+    ]
+  },
+  {
+    "fips": "48",
+    "abbr": "TX",
+    "name": "Texas",
+    "total_employment": 5698587,
+    "median_wage": 74071,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 316480,
+        "median_wage": 33222,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 277866,
+        "median_wage": 36906,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 316204,
+        "median_wage": 28949,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 276920,
+        "median_wage": 43394,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 283824,
+        "median_wage": 84348,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 234195,
+        "median_wage": 39670,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 245849,
+        "median_wage": 38886,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 301671,
+        "median_wage": 99254,
+        "ai_exposure_score": 0.655
+      }
+    ]
+  },
+  {
+    "fips": "49",
+    "abbr": "UT",
+    "name": "Utah",
+    "total_employment": 728889,
+    "median_wage": 72560,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 36303,
+        "median_wage": 82627,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 38585,
+        "median_wage": 97228,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 31445,
+        "median_wage": 38092,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "35-3031",
+        "title": "Waiters and Waitresses",
+        "employment": 24700,
+        "median_wage": 30662,
+        "ai_exposure_score": 0.21
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 35420,
+        "median_wage": 42508,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 35541,
+        "median_wage": 36153,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 40480,
+        "median_wage": 32544,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 40444,
+        "median_wage": 28358,
+        "ai_exposure_score": 0.178
+      }
+    ]
+  },
+  {
+    "fips": "50",
+    "abbr": "VT",
+    "name": "Vermont",
+    "total_employment": 132525,
+    "median_wage": 74071,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 7353,
+        "median_wage": 28949,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 7360,
+        "median_wage": 33222,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 7015,
+        "median_wage": 99254,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 6600,
+        "median_wage": 84348,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 6462,
+        "median_wage": 36906,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 6440,
+        "median_wage": 43394,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 5717,
+        "median_wage": 38886,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 5446,
+        "median_wage": 39670,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "51",
+    "abbr": "VA",
+    "name": "Virginia",
+    "total_employment": 1722828,
+    "median_wage": 80118,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 95680,
+        "median_wage": 35934,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 85807,
+        "median_wage": 91234,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 91203,
+        "median_wage": 107356,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 95596,
+        "median_wage": 31312,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 83720,
+        "median_wage": 46936,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 84006,
+        "median_wage": 39919,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 74326,
+        "median_wage": 42060,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 70803,
+        "median_wage": 42908,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "53",
+    "abbr": "WA",
+    "name": "Washington",
+    "total_employment": 1590303,
+    "median_wage": 86165,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 79206,
+        "median_wage": 98119,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 77544,
+        "median_wage": 42932,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 77280,
+        "median_wage": 50479,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 88320,
+        "median_wage": 38646,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 88243,
+        "median_wage": 33675,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 84187,
+        "median_wage": 115459,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 65356,
+        "median_wage": 46147,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 68609,
+        "median_wage": 45235,
+        "ai_exposure_score": 0.685
+      }
+    ]
+  },
+  {
+    "fips": "54",
+    "abbr": "WV",
+    "name": "West Virginia",
+    "total_employment": 331313,
+    "median_wage": 64245,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 18384,
+        "median_wage": 25109,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 18400,
+        "median_wage": 28815,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 17539,
+        "median_wage": 86088,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 14293,
+        "median_wage": 33728,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 13616,
+        "median_wage": 34408,
+        "ai_exposure_score": 0.687
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 16100,
+        "median_wage": 37638,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 16155,
+        "median_wage": 32011,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "53-3032",
+        "title": "Heavy and Tractor-Trailer Truck Drivers",
+        "employment": 10359,
+        "median_wage": 46172,
+        "ai_exposure_score": 0.204
+      }
+    ]
+  },
+  {
+    "fips": "55",
+    "abbr": "WI",
+    "name": "Wisconsin",
+    "total_employment": 1258990,
+    "median_wage": 71804,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 69920,
+        "median_wage": 32205,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 69859,
+        "median_wage": 28063,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 66648,
+        "median_wage": 96216,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 62705,
+        "median_wage": 81766,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 61389,
+        "median_wage": 35777,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 61180,
+        "median_wage": 42066,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 54315,
+        "median_wage": 37696,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 51740,
+        "median_wage": 38456,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  },
+  {
+    "fips": "56",
+    "abbr": "WY",
+    "name": "Wyoming",
+    "total_employment": 132525,
+    "median_wage": 69536,
+    "avg_growth": 6.1,
+    "avg_ai_exposure": 0.533,
+    "top_occupations": [
+      {
+        "soc_code": "35-3023",
+        "title": "Fast Food and Counter Workers",
+        "employment": 7353,
+        "median_wage": 27176,
+        "ai_exposure_score": 0.178
+      },
+      {
+        "soc_code": "41-2031",
+        "title": "Retail Salespersons",
+        "employment": 7360,
+        "median_wage": 31188,
+        "ai_exposure_score": 0.396
+      },
+      {
+        "soc_code": "11-1021",
+        "title": "General and Operations Managers",
+        "employment": 7015,
+        "median_wage": 93177,
+        "ai_exposure_score": 0.655
+      },
+      {
+        "soc_code": "29-1141",
+        "title": "Registered Nurses",
+        "employment": 6600,
+        "median_wage": 79184,
+        "ai_exposure_score": 0.366
+      },
+      {
+        "soc_code": "53-7062",
+        "title": "Laborers and Freight/Material Movers",
+        "employment": 6462,
+        "median_wage": 34647,
+        "ai_exposure_score": 0.078
+      },
+      {
+        "soc_code": "43-6014",
+        "title": "Secretaries and Administrative Assistants",
+        "employment": 6440,
+        "median_wage": 40737,
+        "ai_exposure_score": 0.73
+      },
+      {
+        "soc_code": "43-4051",
+        "title": "Customer Service Representatives",
+        "employment": 5717,
+        "median_wage": 36505,
+        "ai_exposure_score": 0.685
+      },
+      {
+        "soc_code": "43-9061",
+        "title": "Office Clerks, General",
+        "employment": 5446,
+        "median_wage": 37241,
+        "ai_exposure_score": 0.687
+      }
+    ]
+  }
+]

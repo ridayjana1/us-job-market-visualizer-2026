@@ -1,0 +1,66 @@
+name: Data Update
+
+# Refreshes the dataset from the ETL pipeline and opens a PR with any changes.
+# Runs monthly (BLS OEWS/EP update on an annual cadence; O*NET ~quarterly) and
+# on manual dispatch. Provide BLS_API_KEY / ONET_USERNAME / ONET_PASSWORD as
+# repository secrets to build from official releases; otherwise the curated
+# sample is regenerated deterministically.
+
+on:
+  schedule:
+    - cron: "0 6 1 * *" # 06:00 UTC on the 1st of each month
+  workflow_dispatch:
+    inputs:
+      live:
+        description: "Fetch official BLS/O*NET releases (requires secrets)"
+        type: boolean
+        default: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install ETL dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch official data
+        if: ${{ inputs.live == true }}
+        env:
+          BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+          ONET_USERNAME: ${{ secrets.ONET_USERNAME }}
+          ONET_PASSWORD: ${{ secrets.ONET_PASSWORD }}
+        run: |
+          python scripts/fetch_bls.py || echo "BLS fetch failed; will fall back to seed"
+          python scripts/fetch_onet.py || echo "O*NET fetch failed; will fall back to seed"
+          python scripts/fetch_ai_exposure.py
+
+      - name: Build dataset
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/build_dataset.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(data): refresh dataset"
+          title: "chore(data): scheduled dataset refresh"
+          body: |
+            Automated dataset refresh from the ETL pipeline.
+
+            - Source: ${{ inputs.live == true && 'official BLS/O*NET releases' || 'curated sample regeneration' }}
+            - Review the diff in `data/` and `public/data/` before merging.
+          branch: data/auto-update
+          add-paths: |
+            data/**
+            public/data/**
+          delete-branch: true
