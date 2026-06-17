@@ -12,6 +12,7 @@ import {
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { PixelPerfectHero } from "@/components/ui/pixel-perfect-hero";
 import { StatCard } from "@/components/stat-card";
 import { ExposureBadge } from "@/components/exposure-badge";
 import { getMeta, getSummaryStats, getTrends } from "@/lib/data";
@@ -33,33 +34,17 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* Hero */}
-      <section className="relative border-b">
-        <div className="absolute inset-0 bg-grid" aria-hidden />
-        <div className="container relative py-16 md:py-24">
-          <div className="mx-auto max-w-3xl text-center">
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full border bg-background/60 px-3 py-1 text-xs text-muted-foreground">
-              <Sparkles className="h-3.5 w-3.5" />
-              {meta.reference_year} BLS &amp; O*NET
-            </div>
-            <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
-              Explore the US job market
-            </h1>
-            <p className="mt-5 text-lg text-muted-foreground md:text-xl">
-              Employment, wages, growth, education, and AI exposure for{" "}
-              {stats.occupationCount} occupations - in one interactive workspace.
-            </p>
-            <div className="mt-8 flex flex-wrap justify-center gap-3">
-              <Button asChild size="lg">
-                <Link href="/explorer">Start exploring <ArrowRight className="h-4 w-4" /></Link>
-              </Button>
-              <Button asChild size="lg" variant="outline">
-                <Link href="/scatter">View the scatter plot</Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Hero — animated pixel shimmer, theme-aware, product-relevant badges */}
+      <PixelPerfectHero
+        eyebrow={`${meta.reference_year} BLS & O*NET · ${stats.occupationCount} occupations`}
+        word1="Job Market"
+        word2="Explorer"
+        description="Explore U.S. occupations through wages, growth, education, AI impact, and state-level insights."
+        primaryHref="/explorer"
+        primaryLabel="Start exploring"
+        secondaryHref="https://github.com/ridayjana1/us-job-market-visualizer-2026"
+        secondaryLabel="View GitHub"
+      />
 
       <div className="container space-y-12 py-12">
         {/* Top stats */}

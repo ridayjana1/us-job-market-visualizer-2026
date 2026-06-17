@@ -18,9 +18,9 @@ export default function ScatterPage() {
       <header className="mb-6">
         <h1 className="text-3xl font-bold tracking-tight">AI Impact vs. Median Pay</h1>
         <p className="mt-1 max-w-2xl text-muted-foreground">
-          Each bubble is an occupation. Position shows AI impact (left to right)
-          against median pay (bottom to top). Bubble size is the number of jobs,
-          and color shows the job-growth outlook. Click a bubble for full detail.
+          Each point is an occupation. Position shows AI impact (left to right)
+          against median pay (bottom to top). Point size is the number of jobs,
+          and color shows the job-growth outlook. Click a point for full detail.
         </p>
       </header>
 
@@ -32,7 +32,7 @@ export default function ScatterPage() {
           <div className="mt-6 space-y-3 border-t pt-4">
             <ColorLegend />
             <div className="flex items-center gap-2 text-xs text-muted-foreground">
-              <span className="font-medium text-foreground">Bubble size:</span>
+              <span className="font-medium text-foreground">Point size:</span>
               <span className="flex items-center gap-1"><span className="h-2 w-2 rounded-full bg-muted-foreground" /> fewer jobs</span>
               <span className="flex items-center gap-1"><span className="h-4 w-4 rounded-full bg-muted-foreground" /> more jobs</span>
             </div>

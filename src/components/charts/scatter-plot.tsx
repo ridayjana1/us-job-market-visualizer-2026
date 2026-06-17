@@ -5,7 +5,20 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import * as d3 from "d3";
 
 import type { Occupation } from "@/lib/types";
+import { cn } from "@/lib/utils";
 import { formatCompact, formatCurrency, formatPercent, growthColor } from "@/lib/format";
+
+type ViewMode = "scatter" | "bubble";
+
+/** A laid-out point: keeps the true data anchor (x0/y0) and the rendered
+ *  position (x/y), which may be nudged by the force layout in scatter view. */
+interface PlotNode extends Occupation {
+  x0: number;
+  y0: number;
+  x: number;
+  y: number;
+  r: number;
+}
 
 interface TooltipState {
   x: number;
@@ -14,10 +27,17 @@ interface TooltipState {
 }
 
 /**
- * AI Exposure × Median Salary scatter.
- *   x: ai_exposure_score   y: median_wage
- *   r: employment (sqrt-scaled)   fill: growth_rate
- * Fully responsive via ResizeObserver; bubbles are keyboard-focusable and
+ * AI Impact × Median Salary scatter.
+ *   x: ai_exposure_score   y: median_wage   color: growth_rate (job outlook)
+ *   size: employment
+ *
+ * Two views:
+ *   • Scatter (default) — small solid dots spaced apart with a d3-force
+ *     collision layout so overlapping occupations become individually
+ *     readable while staying near their true position.
+ *   • Bubble — classic sqrt-scaled translucent bubbles at exact positions.
+ *
+ * Fully responsive via ResizeObserver; points are keyboard-focusable and
  * navigate to the occupation detail page on click.
  */
 export function ScatterPlot({ data }: { data: Occupation[] }) {
@@ -25,6 +45,8 @@ export function ScatterPlot({ data }: { data: Occupation[] }) {
   const svgRef = useRef<SVGSVGElement>(null);
   const router = useRouter();
   const [width, setWidth] = useState(880);
+  const [view, setView] = useState<ViewMode>("scatter");
+  const [hovered, setHovered] = useState<string | null>(null);
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
 
   useEffect(() => {
@@ -47,9 +69,45 @@ export function ScatterPlot({ data }: { data: Occupation[] }) {
     const maxWage = d3.max(data, (d) => d.median_wage) ?? 250000;
     const y = d3.scaleLinear().domain([0, maxWage * 1.05]).range([innerH, 0]).nice();
     const maxEmp = d3.max(data, (d) => d.employment) ?? 1;
-    const r = d3.scaleSqrt().domain([0, maxEmp]).range([3, 34]);
-    return { x, y, r, innerW, innerH };
+    // Compact dots for scatter view, larger bubbles for bubble view.
+    const rDot = d3.scaleSqrt().domain([0, maxEmp]).range([3.5, 9]);
+    const rBubble = d3.scaleSqrt().domain([0, maxEmp]).range([4, 32]);
+    return { x, y, rDot, rBubble, innerW, innerH };
   }, [data, width, height, margin]);
+
+  // Lay out the points. In scatter view we run a short, deterministic force
+  // simulation that pulls each point toward its true (x0,y0) while a collision
+  // force pushes overlapping points apart — preserving values, removing clutter.
+  const nodes = useMemo<PlotNode[]>(() => {
+    const { x, y, rDot, rBubble, innerW, innerH } = scales;
+    const base: PlotNode[] = data.map((d) => {
+      const x0 = x(d.ai_exposure_score);
+      const y0 = y(d.median_wage);
+      const r = view === "bubble" ? rBubble(d.employment) : rDot(d.employment);
+      return { ...d, x0, y0, x: x0, y: y0, r };
+    });
+
+    if (view === "bubble") return base;
+
+    const sim = d3
+      .forceSimulation(base as unknown as d3.SimulationNodeDatum[])
+      .force("x", d3.forceX<PlotNode>((d) => d.x0).strength(0.65))
+      .force("y", d3.forceY<PlotNode>((d) => d.y0).strength(0.65))
+      .force("collide", d3.forceCollide<PlotNode>((d) => d.r + 1.6).strength(1).iterations(3))
+      .stop();
+    for (let i = 0; i < 280; i++) sim.tick();
+
+    // Keep everything inside the plotting area.
+    for (const n of base) {
+      n.x = Math.max(n.r, Math.min(innerW - n.r, n.x));
+      n.y = Math.max(n.r, Math.min(innerH - n.r, n.y));
+    }
+    return base;
+  }, [data, scales, view]);
+
+  // Largest first so smaller points render on top and stay hittable.
+  const ordered = useMemo(() => [...nodes].sort((a, b) => b.r - a.r), [nodes]);
+  const hoveredNode = hovered ? nodes.find((n) => n.soc_code === hovered) : null;
 
   useEffect(() => {
     if (!svgRef.current) return;
@@ -69,14 +127,89 @@ export function ScatterPlot({ data }: { data: Occupation[] }) {
     svg.selectAll(".tick text").attr("fill", "currentColor").attr("opacity", 0.6);
   }, [scales]);
 
+  const show = (n: PlotNode) => {
+    setHovered(n.soc_code);
+    setTooltip({ x: n.x, y: n.y, occ: n });
+  };
+  const hide = () => {
+    setHovered(null);
+    setTooltip(null);
+  };
+
+  const renderPoint = (n: PlotNode, opts: { top?: boolean } = {}) => {
+    const color = growthColor(n.growth_rate);
+    const isActive = hovered === n.soc_code;
+    const dimmed = hovered !== null && !isActive;
+    const fillOpacity = view === "bubble" ? (isActive ? 0.85 : dimmed ? 0.18 : 0.55) : isActive ? 1 : dimmed ? 0.28 : 0.9;
+    return (
+      <circle
+        key={opts.top ? `${n.soc_code}-top` : n.soc_code}
+        cx={n.x}
+        cy={n.y}
+        r={isActive ? n.r + (view === "bubble" ? 1 : 1.5) : n.r}
+        fill={color}
+        fillOpacity={fillOpacity}
+        stroke={isActive ? "var(--background, #0a0a0a)" : color}
+        strokeWidth={isActive ? 2 : view === "bubble" ? 0.75 : 1}
+        strokeOpacity={isActive ? 1 : view === "bubble" ? 0.7 : 0.55}
+        tabIndex={0}
+        role="button"
+        aria-label={`${n.title}. AI impact ${(n.ai_exposure_score * 100).toFixed(0)} percent, median ${formatCurrency(n.median_wage)}`}
+        className="cursor-pointer outline-none transition-[r,fill-opacity,stroke-width] duration-150 focus-visible:stroke-[2px]"
+        onMouseEnter={() => show(n)}
+        onMouseLeave={hide}
+        onFocus={() => show(n)}
+        onBlur={hide}
+        onClick={() => router.push(`/occupation/${n.soc_code}`)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") router.push(`/occupation/${n.soc_code}`);
+        }}
+      />
+    );
+  };
+
+  // Edge-aware tooltip placement so it never spills off-canvas or covers the point.
+  const tipW = 224;
+  const tipLeftRaw = tooltip ? tooltip.x + margin.left + 14 : 0;
+  const flipX = tooltip ? tipLeftRaw + tipW > width : false;
+  const tipLeft = tooltip ? (flipX ? tooltip.x + margin.left - tipW - 14 : tipLeftRaw) : 0;
+  const tipTop = tooltip ? Math.max(8, tooltip.y + margin.top - 90) : 0;
+
   return (
     <div ref={wrapRef} className="relative w-full">
+      {/* View toggle */}
+      <div className="mb-3 flex items-center justify-end">
+        <div
+          role="radiogroup"
+          aria-label="Chart view"
+          className="inline-flex rounded-lg border bg-muted/40 p-0.5 text-xs font-medium"
+        >
+          {(["scatter", "bubble"] as const).map((mode) => (
+            <button
+              key={mode}
+              type="button"
+              role="radio"
+              aria-checked={view === mode}
+              onClick={() => setView(mode)}
+              className={cn(
+                "rounded-md px-3 py-1.5 capitalize transition-colors",
+                view === mode
+                  ? "bg-background text-foreground shadow-sm"
+                  : "text-muted-foreground hover:text-foreground",
+              )}
+            >
+              {mode === "scatter" ? "Scatter view" : "Bubble view"}
+            </button>
+          ))}
+        </div>
+      </div>
+
       <svg
         ref={svgRef}
         width={width}
         height={height}
         role="img"
-        aria-label="Scatter plot of AI exposure versus median salary by occupation"
+        aria-label="Scatter plot of AI impact versus median salary by occupation"
         className="overflow-visible text-foreground"
       >
         <g transform={`translate(${margin.left},${margin.top})`}>
@@ -95,45 +228,9 @@ export function ScatterPlot({ data }: { data: Occupation[] }) {
           <g className="x-axis" />
           <g className="y-axis" />
 
-          {/* bubbles, larger first so small ones stay clickable on top */}
-          {[...data]
-            .sort((a, b) => b.employment - a.employment)
-            .map((d) => (
-              <circle
-                key={d.soc_code}
-                cx={scales.x(d.ai_exposure_score)}
-                cy={scales.y(d.median_wage)}
-                r={scales.r(d.employment)}
-                fill={growthColor(d.growth_rate)}
-                fillOpacity={0.62}
-                stroke={growthColor(d.growth_rate)}
-                strokeOpacity={0.9}
-                tabIndex={0}
-                role="button"
-                aria-label={`${d.title}. Exposure ${(d.ai_exposure_score * 100).toFixed(0)} percent, median ${formatCurrency(d.median_wage)}`}
-                className="cursor-pointer outline-none transition-[stroke-width] focus:stroke-[3px] hover:stroke-[3px]"
-                onMouseEnter={() =>
-                  setTooltip({
-                    x: scales.x(d.ai_exposure_score),
-                    y: scales.y(d.median_wage),
-                    occ: d,
-                  })
-                }
-                onMouseLeave={() => setTooltip(null)}
-                onFocus={() =>
-                  setTooltip({
-                    x: scales.x(d.ai_exposure_score),
-                    y: scales.y(d.median_wage),
-                    occ: d,
-                  })
-                }
-                onBlur={() => setTooltip(null)}
-                onClick={() => router.push(`/occupation/${d.soc_code}`)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter") router.push(`/occupation/${d.soc_code}`);
-                }}
-              />
-            ))}
+          {ordered.map((n) => renderPoint(n))}
+          {/* Active point re-rendered last so it sits above its neighbors. */}
+          {hoveredNode && renderPoint(hoveredNode, { top: true })}
         </g>
 
         {/* axis labels */}
@@ -156,11 +253,8 @@ export function ScatterPlot({ data }: { data: Occupation[] }) {
 
       {tooltip && (
         <div
-          className="pointer-events-none absolute z-10 w-56 rounded-lg border bg-popover p-3 text-xs shadow-lg"
-          style={{
-            left: Math.min(tooltip.x + margin.left + 12, width - 230),
-            top: tooltip.y + margin.top - 8,
-          }}
+          className="pointer-events-none absolute z-10 rounded-lg border bg-popover p-3 text-xs shadow-lg"
+          style={{ left: tipLeft, top: tipTop, width: tipW }}
         >
           <p className="font-semibold">{tooltip.occ.title}</p>
           <p className="text-muted-foreground">{tooltip.occ.soc_code}</p>
