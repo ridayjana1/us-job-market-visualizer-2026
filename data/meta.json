@@ -1,7 +1,8 @@
 {
-  "generated_on": "2026-06-15",
-  "reference_year": 2024,
   "dataset_kind": "curated-sample",
+  "generated_on": "2026-09-01",
+  "generated_at": "2026-09-01T11:24:04.046492+00:00",
+  "reference_year": 2024,
   "sources": [
     {
       "name": "BLS Occupational Employment and Wage Statistics (OEWS)",
@@ -43,10 +44,13 @@
   "stats": {
     "occupation_count": 57,
     "total_employment": 66262650,
-    "median_wage_overall": 66750,
-    "high_exposure_count": 27,
-    "moderate_exposure_count": 15,
-    "low_exposure_count": 15
+    "exposure_bands": {
+      "low": 15,
+      "moderate": 15,
+      "high": 27
+    }
   },
-  "disclaimer": "AI exposure measures task overlap with current AI capabilities. It is not a prediction of job loss. Exposure is split into augmentation and automation potential following the Anthropic Economic Index framing."
+  "disclaimer": "AI exposure measures task overlap with current AI capabilities; it is not a prediction of job loss.",
+  "bls_oews_release": "OEWS May 2024",
+  "onet_version": "29.0"
 }
